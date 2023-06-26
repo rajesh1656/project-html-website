@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  ashu-ui-app:
+    image: rajesh-web1:app$BUILD_NUMBER
+    build: .
+    container_name: ashuc1
+    ports:
+    - 1989:80
